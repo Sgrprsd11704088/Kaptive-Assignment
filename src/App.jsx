@@ -14,7 +14,7 @@ function App() {
       <Sidebar />
       <div className="main-content">
         <NavBar />
-        <div className="chart-section">
+        <div className="chart-section mt-3" >
           <Chart />
         </div>
         <div className="table-section">

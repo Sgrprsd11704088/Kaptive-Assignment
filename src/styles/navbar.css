@@ -1,3 +1,4 @@
+/* src/components/NavBar.css */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,22 +6,23 @@
   padding: 10px 20px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  font-size: 10px;
 }
 
 .left-nav,
 .right-nav {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
 }
 
 .nav-button {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 8px 16px;
-  margin: 5px;
+  padding: 6px 13px;
+  margin: 3px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -30,14 +32,14 @@
 }
 
 .nav-input {
-  padding: 8px;
-  margin: 5px;
+  padding: 6px;
+  margin: 3px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
 @media (max-width: 768px) {
   .navbar {
-    overflow: hidden;
+    display: none;
   }
 }
