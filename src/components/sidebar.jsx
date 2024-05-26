@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "../styles/sidebar.css";
+import "../styles/sidebar.css"; // Import the CSS file
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,7 +76,7 @@ const Sidebar = () => {
             }}
           >
             <img
-              src="https://github.com/mdo.png"
+              src="../../public/Profile_Pic.jpg"
               alt="User"
               width="32"
               height="32"

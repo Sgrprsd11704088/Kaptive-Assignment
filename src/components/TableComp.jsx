@@ -1,4 +1,4 @@
-import data from "../../data/Case Study _ Front End (Json).json";
+import data from "../data/Case Study _ Front End (Json).json";
 import ReactPaginate from "react-paginate";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";

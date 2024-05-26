@@ -1,19 +1,28 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import TableComp from "./components/Table";
 import Sidebar from "./components/sidebar";
+
+import Chart from "./components/Chart";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
+import TableComp from "./components/TableComp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <div style={{ display: "flex" }}>
-        <Sidebar />
-        <div style={{margin: "0px 20px"}}>
+    <div className="app-container">
+      <Sidebar />
+      <div className="main-content">
+        <NavBar />
+        <div className="chart-section">
+          <Chart />
+        </div>
+        <div className="table-section">
           <TableComp />
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </>
+    </div>
   );
 }
 
