@@ -24,7 +24,7 @@ const Sidebar = () => {
           <svg className="bi pe-none me-2" width="40" height="32">
             <use xlinkHref="#bootstrap"></use>
           </svg>
-          <span className="fs-4">PLSE</span>
+          <h1 className="fw-bolder">PLSE</h1>
         </a>
 
         <ul className="nav nav-pills flex-column mb-auto">
